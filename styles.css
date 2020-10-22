@@ -1,0 +1,125 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    display: flex;
+    width: 480px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    padding: 1em;
+    background-color: rgb(232, 126, 87);
+    color: white;
+    border: none;
+    margin: 1em 1em 1em 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(237, 144, 86);
+    
+ 
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#bbada0;
+    border-radius: 7px;
+
+
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color:#d0c1b4;
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+.score-div {
+    font-size: 1.5em;
+    background-color: #e3dbd4;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+}
+
+.tile2 {
+    background-color: #e3dbd4;
+}
+
+.tile4 {
+    background-color: #f5e3c8;
+}
+
+.tile8 {
+    background-color: #fab172;
+    color: white;
+}
+
+.tile16 {
+    background-color: rgb(237, 144, 86);
+    color: white;
+
+}
+
+.tile32 {
+    background-color: rgb(232, 126, 87);
+    color: white;
+}
+
+.tile64 {
+    background-color: rgb(216, 96, 52);
+    color: white;
+}
+
+.tile128 {
+    background-color: #f7de9d;
+    color: white;
+
+}
+
+.tile256 {
+    background-color: #f0d38a;
+    color: white;
+}
+
+.tile512 {
+    background-color: #edca73;
+    color: white;
+}
+
+.tile1024 {
+    background-color:#eec762;
+    color: white;
+}
+
+.tile2048 {
+    background-color: #e9bc48;
+    color: white;
+}
+
+.tile4096{
+    background-color: #3f3f3d;
+    color: white;
+}
+.tile8192 {
+    background-color: #393835;
+    color: white;
+}
+
+
